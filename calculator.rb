@@ -1,5 +1,5 @@
 class Calculator
-  
+
   def add(num1, num2)
     return num1 + num2
   end
@@ -8,7 +8,7 @@ class Calculator
     return num1 - num2
   end
 
-  def sum(num_array)
+  def computes_sum(num_array)
     return num_array.reduce(0, :+)
   end
 
